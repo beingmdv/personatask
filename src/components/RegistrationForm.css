@@ -1,0 +1,118 @@
+/* Container & Card */
+
+
+
+.logo {
+  width: 80px;       
+  height: auto;
+  display: block;
+  margin: 0 auto 1rem auto;  
+  border-radius: 12px;      
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2); 
+}
+
+.form-container {
+  max-width: 450px;
+  margin: 3rem auto;
+  padding: 2.5rem;
+  background: linear-gradient(135deg, #f9f9f9, #e0f7fa);
+  border-radius: 20px;
+  box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+  font-family: 'Poppins', sans-serif;
+  transition: transform 0.3s ease;
+}
+
+.form-container:hover {
+  transform: translateY(-5px);
+}
+
+/* Header */
+.form-header {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #007bff;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+}
+
+/* Labels & Inputs */
+form label {
+  display: block;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  color: #444;
+}
+
+input, select {
+  width: 100%;
+  padding: 0.7rem 1rem;
+  margin-top: 0.25rem;
+  border: 2px solid #ddd;
+  border-radius: 12px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  background: #fff;
+}
+
+input:focus, select:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 10px rgba(0,123,255,0.2);
+  outline: none;
+}
+
+/* Error */
+.error {
+  color: #d32f2f;
+  font-size: 0.85rem;
+  margin-top: 0.2rem;
+  display: block;
+}
+
+/* Submit Button */
+.submit-btn {
+  width: 100%;
+  padding: 0.8rem;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 1.5rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.submit-btn:hover {
+  background: #0056b3;
+  transform: scale(1.05) rotate(-1deg);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+}
+
+/* Success Message */
+.success-message {
+  margin-top: 1.5rem;
+  padding: 0.75rem 1rem;
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+  border-radius: 12px;
+  font-weight: 600;
+  text-align: center;
+  animation: fadeInUp 0.5s ease;
+}
+
+@keyframes fadeInUp {
+  0% { opacity: 0; transform: translateY(20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+
+/* Now making it responsive */
+
+@media (max-width: 500px) {
+  .form-container {
+    margin: 1rem;
+    padding: 2rem;
+  }
+}
