@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/personatask/static/css/main.1a95e334.css",
+    "main.js": "/personatask/static/js/main.98f5e9fa.js",
+    "static/js/453.5d878730.chunk.js": "/personatask/static/js/453.5d878730.chunk.js",
+    "index.html": "/personatask/index.html",
+    "main.1a95e334.css.map": "/personatask/static/css/main.1a95e334.css.map",
+    "main.98f5e9fa.js.map": "/personatask/static/js/main.98f5e9fa.js.map",
+    "453.5d878730.chunk.js.map": "/personatask/static/js/453.5d878730.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1a95e334.css",
+    "static/js/main.98f5e9fa.js"
+  ]
+}
